@@ -2,6 +2,10 @@
 
 @section('content')
 @include('inc.navadmin')<br>
+<div class="col-md-5" align="right">
+     <a href="{{ url('dynamic_pdf/pdf') }}" class="btn btn-danger">Convert into PDF</a>
+</div>
+<br>
 <table class="table table-bordered">
             <tr>
                 <th>

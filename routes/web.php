@@ -59,3 +59,4 @@ Route::post('/customer/medicinedetails/{id}/{name}',[OrderController::class, 'or
 
 Route::get('/admin/orderlist',[OrderController::class,'orderlist'])->name('order.list')->middleware('authorized');
 
+Route::get('/dynamic_pdf/pdf',[OrderController::class,'pdf']);
